@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">babel_car</string>
+    <string name="arac_kirala">Araç Kirala</string>
+    <string name="marka">Marka</string>
+</resources>

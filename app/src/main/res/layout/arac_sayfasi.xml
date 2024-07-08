@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".YourActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Hyundai -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/hundai_bayon"
+                    android:layout_width="match_parent"
+                    android:layout_height="162dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hundai_bayon"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/hundai_ozellik"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ozellik"
+                    tools:ignore="ContentDescription" />
+
+                <Button
+                    android:id="@+id/hundai_kirala"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="?android:attr/windowSplashScreenBackground"
+                    android:text="Hundai Bayon Kirala"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText,DuplicateSpeakableTextCheck" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Clio -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/clio"
+                    android:layout_width="match_parent"
+                    android:layout_height="162dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/clio"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/clio_ozellik"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ozellik"
+                    tools:ignore="ContentDescription" />
+
+                <Button
+                    android:id="@+id/clio_kirala"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="?android:attr/windowSplashScreenBackground"
+                    android:text="Renault  Clio Kirala"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Opel -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/opel"
+                    android:layout_width="match_parent"
+                    android:layout_height="162dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/opel"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/opel_ozellik"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ozellik"
+                    tools:ignore="ContentDescription" />
+
+                <Button
+                    android:id="@+id/opel_kirala"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="?android:attr/windowSplashScreenBackground"
+                    android:text="Opel Corsa Kirala"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <!-- Fiat Egea! -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/fiat_egea"
+                    android:layout_width="match_parent"
+                    android:layout_height="162dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fiat_egea"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/fiat_egea_ozellik"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ozellik"
+                    tools:ignore="ContentDescription" />
+
+                <Button
+                    android:id="@+id/fiat_egea_kirala"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="?android:attr/windowSplashScreenBackground"
+                    android:text="Fiat Egea Kirala"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Dacia Duster! -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/dacia_duster"
+                    android:layout_width="match_parent"
+                    android:layout_height="162dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dacia_duster"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/dacia_duster_ozellik"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ozellik"
+                    tools:ignore="ContentDescription" />
+
+                <Button
+                    android:id="@+id/dacia_duster_kirala"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="?android:attr/windowSplashScreenBackground"
+                    android:text="Dacia Duster Kirala"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Renault Captur! -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/renault_captur"
+                    android:layout_width="match_parent"
+                    android:layout_height="162dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/renault_captur"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/renault_captur_ozellik"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ozellik"
+                    tools:ignore="ContentDescription" />
+
+                <Button
+                    android:id="@+id/renault_captur_kirala"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="?android:attr/windowSplashScreenBackground"
+                    android:text="Renault Captur Kirala"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Nissan! -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/nissan"
+                    android:layout_width="match_parent"
+                    android:layout_height="162dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nissan_qashqai"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/nissan_ozellik"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ozellik"
+                    tools:ignore="ContentDescription" />
+
+                <Button
+                    android:id="@+id/nissan_kirala"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="?android:attr/windowSplashScreenBackground"
+                    android:text="Nissan QASHQAI Kirala"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Renauld Austral! -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/renauld_austral"
+                    android:layout_width="match_parent"
+                    android:layout_height="162dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/renauld_austral"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/renauld_austral_ozellik"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ozellik"
+                    tools:ignore="ContentDescription" />
+
+                <Button
+                    android:id="@+id/renauld_austral_kirala"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="?android:attr/windowSplashScreenBackground"
+                    android:text="Renauld Austral Kirala"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Ford Tourneo! -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ford_tourneo"
+                    android:layout_width="match_parent"
+                    android:layout_height="162dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ford_tourneo"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/ford_tourneo_ozellik"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ozellik"
+                    tools:ignore="ContentDescription" />
+
+                <Button
+                    android:id="@+id/ford_tourneo_kirala"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="?android:attr/windowSplashScreenBackground"
+                    android:text="Ford Tourneo Kirala"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Renauld Trafic! -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/renauld_trafic"
+                    android:layout_width="match_parent"
+                    android:layout_height="162dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/renauld_trafic"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/renauld_trafic_ozellik"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ozellik"
+                    tools:ignore="ContentDescription" />
+
+                <Button
+                    android:id="@+id/renauld_trafic_kirala"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="?android:attr/windowSplashScreenBackground"
+                    android:text="Renauld Trafic Kirala"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
